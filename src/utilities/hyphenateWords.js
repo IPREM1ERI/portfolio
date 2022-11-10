@@ -1,5 +1,5 @@
 function hyphenateWords(str) {
-  return str.toLowerCase().replace(/[^a-z0-9]+/ig , "-")
+  return str.toLowerCase().replace(/\s/g , "-")
 }
 
 export default hyphenateWords
