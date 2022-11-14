@@ -25,7 +25,7 @@ const projects = [
     description:'Headphone Collector is just a site made to showcase my Python and Django capabilities',
     image: '/Website.PNG',
     repositoryLink: 'https://github.com/IPREM1ERI/headphone-collector-lab',
-    deploymentLink: ''
+    deploymentLink: 'https://headphone-collector.herokuapp.com'
   },
 ]
 

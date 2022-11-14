@@ -3,21 +3,15 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <nav>
-        <Link to='/'>Your Name</Link>
+        <Link to='/'>Home</Link>
         <ul>
-            <li>
-                <Link to='/about'>About</Link>
-            </li>
-            <li>
-                <Link to='/contact'>Contact</Link>
-            </li>
-            <li>
-                <Link to='/projects'>Projects</Link>
-            </li>
-            <li>
-                <Link to='/resume'>Resume</Link>
-            </li>
+            <Link to='/about'>About</Link>
+            <Link to='/projects'>Projects</Link>
+            <Link to='/contact'>Contact</Link>
+            <Link to='/resume'>Resume</Link>
         </ul>
     </nav>
   )
 }
+
+export default NavBar
