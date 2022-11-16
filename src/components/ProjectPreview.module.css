@@ -1,10 +1,11 @@
 .container {
-  height: 350px;
+  height: 70%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 0px;
 }
 
 .container img {
@@ -12,4 +13,3 @@
   object-fit: contain;
   margin: 0;
 }
-

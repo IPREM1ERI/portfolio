@@ -1,11 +1,13 @@
 .listContainer {
-  margin: 10px;
+  margin: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-ul {
+.listContainer ul {
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
