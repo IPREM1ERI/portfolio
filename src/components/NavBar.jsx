@@ -10,6 +10,10 @@ function NavBar() {
         <Link to='/projects'>Projects</Link>
         <Link to='/contact'>Contact</Link>
         <Link to='/resume'>Resume</Link>
+        <div className="git_linkedin">
+          <a href="https://www.linkedin.com/in/davidvazquez88/">linkedin</a>
+          <a href="https://github.com/IPREM1ERI">GitHub</a>
+        </div>
       </nav>
     </header>
   )

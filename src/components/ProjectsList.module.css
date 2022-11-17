@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding-top: 60px;
+  padding-top: 85px;
   padding-bottom: 20px;
   
 }
@@ -21,7 +21,6 @@
   border: solid 4px;
   border-color: #bd93f9;
   border-radius: 5px;
-  
 }
 
 /* .listContainer h1 {

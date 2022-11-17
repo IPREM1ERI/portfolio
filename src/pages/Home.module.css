@@ -1,0 +1,21 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.homeContainer img{
+  width: 350px;
+}
+
+.homeContainer h1, h2, h3 {
+  color: #8be9fd;
+  font-weight: bold;
+  text-align: center;
+}
+
+.homeContainer a {
+  text-decoration: none;
+}
