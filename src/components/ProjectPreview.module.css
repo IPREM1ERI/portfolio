@@ -6,10 +6,23 @@
   justify-content: center;
   align-items: center;
   margin: 0px;
+  background-color: #282a36;
 }
 
 .container img {
   height: 250px;
   object-fit: contain;
   margin: 0;
+}
+
+.container button {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: #6272a4;
+  border: none;
+  padding: 12px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  color: #f1fa8c;
+  border-radius: 5px;
 }
