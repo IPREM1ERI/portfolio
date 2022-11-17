@@ -1,6 +1,6 @@
 .navBar {
-  /* position: fixed;
-  top: 0; */
+  position: fixed;
+  top: 0;
   display: flex;
   flex-direction: row;
   background-color: black;
@@ -10,11 +10,16 @@
   align-items: center;
   margin: 0;
   padding: 0;
-
+  
 }
 
 header > nav {
   width: 100vw;
+}
+
+nav > a {
+  color: aqua;
+  text-decoration: none;
 }
 
 
