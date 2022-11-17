@@ -1,0 +1,28 @@
+.containerDetails {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.containerDetails img {
+  height: 350px;
+  object-fit: contain;
+  margin: 0;
+}
+
+.containerDetails div {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerDetails button {
+  margin:8px;
+  background-color: #6272a4;
+  border: none;
+  padding: 12px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  color: #f1fa8c;
+  border-radius: 5px;
+}

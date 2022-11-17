@@ -1,5 +1,6 @@
 import findProject from "../utilities/findProject";
 import { useParams } from "react-router-dom";
+import styles from "./ProjectDetails.module.css"
 
 function ProjectDetails() {
   const params = useParams()
@@ -8,17 +9,19 @@ function ProjectDetails() {
   const project = findProject(title)
   return (
     <>
-      <h1>
-        {project.title}
-        <p>{project.description}</p>
+      <div className={styles.containerDetails}>
+        {/* {project.title} */}
         <img src={project.image} alt="project-image" />
-        <a href={project.deploymentLink}>
-          <button >Deployed Site</button>
-        </a>
-        <a href={project.repositoryLink}>
-          <button >GitHub Repo</button>
-        </a>
-      </h1>
+        <p>{project.description}</p>
+        <div>
+          <a href={project.deploymentLink}>
+            <button >Deployed Site</button>
+          </a>
+          <a href={project.repositoryLink}>
+            <button >GitHub Repo</button>
+          </a>
+        </div>
+      </div>
     </>
   )
 }
