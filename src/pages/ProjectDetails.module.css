@@ -37,4 +37,6 @@ background-color: #282a36;
 
 .containerDetails p {
   padding: 10px;
+  text-align: center;
+  font-size: 24px;
 }

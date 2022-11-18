@@ -4,7 +4,7 @@ import  styles from  "./Contact.module.css"
 function Contact() {
   return (
     <section className={styles.contact}>
-      <h1>Contact</h1>
+      <h1>GET IN TOUCH</h1>
       <ul>
         <li>"I am currently searching for my next opportunity"</li>
         <li>If you either have the perfect job or just want to say hi,</li>
