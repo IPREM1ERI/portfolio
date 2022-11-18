@@ -11,22 +11,23 @@
   padding: 0;
 }
 
-header > nav {
-  width: 100vw;
-}
-
-.navBar  a {
+.navBar  a, h3 {
   color: #8be9fd;
   text-decoration: none;
   font-weight: bold;
   margin: 10px;
 }
 
-div .git_linkedin {
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: flex-start; */
+.navBar div {
+  flex-direction: row;
+  justify-content: flex-start;
   margin-right: auto;
+}
+
+.navBar h3 {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
 }
 
 
