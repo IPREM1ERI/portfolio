@@ -11,6 +11,7 @@
   padding-left: 50px;
 }
 
+
 .homeContainer h1, h2 {
   color: #8be9fd;
   font-weight: bold;
@@ -37,5 +38,16 @@
   background-color: #282a36;
   
 }
+
+.homeContainer h3 {
+  color: red;
+  padding: 75px;
+  position: absolute;
+  font-size: 64px;
+  font-weight: bold;
+  transform: rotate(-45deg);
+}
+
+
 
 

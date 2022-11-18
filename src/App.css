@@ -45,3 +45,14 @@ width: 100%;
 #luck {
   color: #f1fa8c ;
 }
+
+#choose_dev {
+  color: #8be9fd;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  font-weight: bold;
+  padding-bottom: 175px;
+  margin: 0;
+}

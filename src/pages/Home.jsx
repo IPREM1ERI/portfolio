@@ -3,10 +3,12 @@ import { Link } from "react-router-dom"
 
 function Home() {
   return (
+    <>
+      <h1 id="choose_dev">CHOOSE YOUR DEV</h1>
       <div className={styles.homeContainer}>
         <section>
-          <h1 id="locked">LOCKED</h1>
           <h1>ALT CUNNINGHAM</h1>
+          <h3 id="locked">LOCKED</h3>
           <img src="/AltC_img.PNG" alt="profile-img" />
           <h2>NETRUNNER</h2>
           <div>
@@ -32,8 +34,8 @@ function Home() {
           </div>
         </section>
         <section>
-          <h1 id="locked">LOCKED</h1>
           <h1>RACHE BARTMOSS</h1>
+          <h3 id="locked">LOCKED</h3>
           <img src="/rache_img.PNG" alt="profile-img" />
           <h2>NETRUNNER</h2>
           <div>
@@ -44,9 +46,8 @@ function Home() {
             <h4 id="luck">Luck:5</h4>
           </div>
         </section>
-
-        
       </div> 
+    </>
   )
 }
 
