@@ -7,15 +7,38 @@
 }
 
 .homeContainer img{
-  width: 350px;
+  width: 300px;
+  margin: 0;
+  padding-left: 50px;
 }
 
-.homeContainer h1, h2, h3 {
+.homeContainer h1, h2 {
   color: #8be9fd;
   font-weight: bold;
   text-align: center;
+  padding: 8px;
+}
+.homeContainer div {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  margin: 8px;
+  
 }
 
 .homeContainer a {
   text-decoration: none;
 }
+
+.homeContainer section {
+  border: solid 4px;
+  border-color: #bd93f9;
+  border-radius: 5px;
+  background-color: #282a36;
+}
+
+h4 > #int {
+  color: #50fa7b;
+}
+

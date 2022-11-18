@@ -25,3 +25,23 @@ nav {
 #root {
 width: 100%;
 }
+
+#int {
+  color: #50fa7b;
+}
+
+#str {
+  color: #ff5555
+}
+
+#dex {
+  color:#ffb86c
+}
+
+#char {
+  color: #ff79c6;
+}
+
+#luck {
+  color: #f1fa8c ;
+}
