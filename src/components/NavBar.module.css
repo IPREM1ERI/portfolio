@@ -11,11 +11,16 @@
   padding: 0;
 }
 
-.navBar  a, h3 {
+/* header > nav {
+  width: 100vw;
+} */
+
+.navBar  a {
   color: #8be9fd;
   text-decoration: none;
   font-weight: bold;
   margin: 10px;
+  font-size: 24px;
 }
 
 .navBar div {
@@ -24,10 +29,14 @@
   margin-right: auto;
 }
 
-.navBar h3 {
+.navBar h2 {
+  color: #8be9fd;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-self: flex-start;
+  padding-top: 4px;
+  margin: 10px;
 }
 
 

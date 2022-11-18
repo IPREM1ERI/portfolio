@@ -1,0 +1,18 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact a {
+  text-decoration: none;
+  padding: 10px;
+  /* font-weight: bold; */
+  font-size: 32px;
+  color: #8be9fd;
+}
+
+.contact ul {
+  list-style-type: none;
+}
