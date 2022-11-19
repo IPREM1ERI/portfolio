@@ -28,9 +28,9 @@ function Home() {
           <div>
             <h4 id="int">Int:3</h4>
             <h4 id="str">Str:2</h4>
-            <h4 id="dex">Dex:3</h4>
+            <h4 id="dex">Dex:2</h4>
             <h4 id="char">Char:5</h4>
-            <h4 id="luck">Luck:1</h4>
+            <h4 id="luck">Luck:0</h4>
           </div>
         </section>
         <section>
