@@ -42,7 +42,8 @@
 
 .homeContainer h3 {
   color: red;
-  padding: 75px;
+  padding: 70px;
+  padding-bottom: 10px;
   position: absolute;
   font-size: 64px;
   font-weight: bold;
