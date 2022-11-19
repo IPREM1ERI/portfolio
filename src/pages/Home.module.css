@@ -17,7 +17,7 @@
   font-weight: bold;
   font-size: 32px;
   text-align: center;
-  padding: 8px;
+  /* padding: 8px; */
   margin: 0;
 }
 .homeContainer div {
@@ -57,6 +57,7 @@
 
 .homeContainer h1 {
   /* padding-top: 25px; */
+  padding: 0;
   font-size: 42px;
 }
 
