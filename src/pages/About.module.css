@@ -1,20 +1,23 @@
 .about {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 .about section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 
 
 .about p {
   width: 450px;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .about ul {
@@ -24,4 +27,15 @@
 .about li {
   padding: 10px;
   font-size: 32px;
+  color: #8be9fd;;
+}
+
+.about div {
+  width: 650px;
+  /* height: 400px; */
+}
+
+.about img {
+  width: 100%;
+  height: auto;
 }
