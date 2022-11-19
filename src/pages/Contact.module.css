@@ -8,10 +8,11 @@
 
 .contact a {
   text-decoration: none;
-  padding: 10px;
+  padding-right: 4px;
   font-size: 24px;
   color: #8be9fd;
   padding-top: 45px;
+  
 }
 
 .contact ul {
@@ -22,4 +23,16 @@
 
 .contact h1 {
   font-size: 42px;
+}
+
+.contact section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8be9fd;
+}
+
+.contact div {
+  padding-left: 15px;
+  padding-right: 4px;
 }
