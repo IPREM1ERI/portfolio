@@ -4,10 +4,10 @@ import  styles from  "./Contact.module.css"
 function Contact() {
   return (
     <main className={styles.contact}>
-      <h1>GET IN TOUCH</h1>
+      <h1>WANT TO GET IN TOUCH</h1>
       <ul>
         <li>"I am currently searching for my next opportunity"</li>
-        <li>If you either have the perfect job or just want to say hi,</li>
+        <li>If you either have the perfect job or believe I am the perfect fit for your team,</li>
         <li>here's how to connect:</li>
       </ul>
       <section>
