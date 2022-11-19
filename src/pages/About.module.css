@@ -1,0 +1,27 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.about p {
+  width: 450px;
+  font-size: 18px;
+}
+
+.about ul {
+  padding: 0;
+}
+
+.about li {
+  padding: 10px;
+  font-size: 32px;
+}
