@@ -41,6 +41,7 @@
 }
 
 .homeContainer h3 {
+  /* background: white; */
   color: red;
   padding: 70px;
   padding-bottom: 10px;
@@ -48,6 +49,8 @@
   font-size: 64px;
   font-weight: bold;
   transform: rotate(-45deg);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
 }
 
 .homeContainer h2 {

@@ -9,7 +9,7 @@ function ProjectPreview(props) {
       <img src={props.project.image} alt={props.project.title} />
       <section>
           <Link to={hyphenateWords(props.project.title)}>
-            <button>Learn more</button>
+            <button>Learn More</button>
           </Link>
       </section>
     </div>
